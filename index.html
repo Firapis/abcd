@@ -4,14 +4,14 @@
         <header>
     <script type="text/javascript">
       function first(){
-        var user = prompt("名前を入力してください。");
+        var user = prompt("適当な名前を入力してください。");
         if(user==false || user==null){
           alert("名前を入力してください。");
           first();
         }else{
           document.title=user;
         }
-        var pass=prompt("ようこそ"+user+"　パスワード入れてください。");
+        var pass=prompt("ようこそ"+user+"「パスワード」と入力してください。");
         var passWord="パスワード"
         if(pass == passWord){
           alert("パスワード");
