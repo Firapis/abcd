@@ -1,5 +1,5 @@
 <progress id="p1" min="0" max="100" value="0"></progress>
-<button onclick="proc1();">開始</button>
+<button onclick="proc1();">ウイルススキャン</button>
 <script>
 function proc1()
 {
