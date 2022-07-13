@@ -4,19 +4,19 @@
         <header>
     <script type="text/javascript">
       function first(){
-        var user = prompt("Please Enter nickname");
+        var user = prompt("What your name?");
         if(user==false || user==null){
-          alert("Please enter nickname");
+          alert("PLEASE ENTER YOUR NAME");
           first();
         }else{
           document.title=user;
         }
-        var pass=prompt("Welcome to "+user+" Please Enter password");
+        var pass=prompt("Welcome to "+user+" Please Enter CODE");
         var passWord="password"
         if(pass == passWord){
-          alert("Password authentication succeeded.");
+          alert("YOU'RE ADDED.");
         }else{
-          alert("Wrong password.");
+          alert("Wrong Code.");
           first();
         }
       }
