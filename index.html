@@ -1,28 +1,17 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
   <head>
-        <header>
-    <script type="text/javascript">
-      function first(){
-        var user = prompt("HELLO");
-        if(user==false || user==null){
-          alert("PLEASE ENTER YOUR NAME");
-          first();
-        }else{
-          document.title=user;
-        }
-        var pass=prompt("Welcome to"+user+"Please Enter CODE");
-        var passWord="password"
-        if(pass == passWord){
-          alert("YOU'RE ADDED.");
-        }else{
-          alert("Wrong Code.");
-          first();
-        }
-      }
-      window.onload=first();
-    </script>
-    </header>
+    <form name="login_form">
+  <div class="login_form_top">
+    <h1>ログイン画面</h1>
+    <p>ユーーザID、パスワードをご入力の上、「ログイン」ボタンをクリックしてください。</p>
+  </div>
+  <div class="login_form_btm">
+    <input type="id" name="user_id" placeholder="ユーザーIDを入力してください"><br>
+    <input type="password" name="password"placeholder="パスワードを入力してください">
+  </div>
+  <button type="submit">ログイン</button>
+</form>
     <meta charset="utf-8">
     <title>【WARNING!】Detected Virus</title>
     <!-- Compiled and minified CSS -->
